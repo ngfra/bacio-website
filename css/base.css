@@ -1,0 +1,155 @@
+:root {
+  --color-main: #D44000;
+  --color-green: #1D5C00;
+  --color-bg: #FFF5E8;
+  --color-black: #000000;
+  --m-section: 100px;
+  --m-h-t:20px;
+}
+
+/* resposive fonts https://www.fluid-type-scale.com/*/
+:root{
+  --fs-sm: clamp(0.8rem, 0.17vi + 0.76rem, 0.89rem);
+--fs-base: clamp(1rem, 0.34vi + 0.91rem, 1.19rem);
+--fs-md: clamp(1.25rem, 0.61vi + 1.1rem, 1.58rem);
+--fs-lg: clamp(1.56rem, 1vi + 1.31rem, 2.11rem);
+--fs-xl: clamp(1.95rem, 1.56vi + 1.56rem, 2.81rem);
+--fs-xxl: clamp(2.44rem, 2.38vi + 1.85rem, 3.75rem);
+--fs-xxxl: clamp(3.05rem, 3.54vi + 2.17rem, 5rem);
+}
+
+/* body */
+body {
+  background-image: url(../imgs/background-texture.jpg);
+}
+
+p {
+  font-family: "ff-zwo-web-pro", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/*Scrollbar */
+:root {
+  --scrollbarBG: var(--color-bg);
+  --scrollbarKnop: var(--color-main);
+}
+
+html::-webkit-scrollbar {
+  width: 6px;
+}
+
+html {
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbarKnop) var(--scrollbarBG);
+}
+
+html::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbarKnop);
+  border-radius: 0;
+  border: none;
+}
+
+/* selection */
+::selection{
+  color: var(--color-main);
+  background-color: var(--color-bg);
+}
+
+/* variable */
+.titel-h1, .titel-h2, .titel-h3 {
+  font-family: "poster-cut-neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--color-bg);
+  clip-path: polygon(-5.54% 19.49%, 37.08% 7.90%, 103.89% 17.4%, 97.67% 82.09%, 78.44% 82.59%, 32.43% 90.51%, -1.66% 75.75%);
+  background-color: var(--color-main);
+  display: inline-block;
+  padding: 15px 20px;
+}
+
+.titel-h1 {
+  font-size: var(--fs-lg);
+}
+
+.titel-h2 {
+  font-size: var(--fs-md);
+}
+
+.titel-h3 {
+  font-size: var(--fs-base);
+}
+
+.font-nav-footer{
+  font-family: "poster-cut-neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.font-highlight {
+  font-family: "ff-zwo-web-pro", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--color-main);
+}
+
+.font-header {
+  font-family: "ff-zwo-web-pro", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  max-width: 700px;
+  text-align: center;
+  line-height: 1.5;
+}
+.claim {
+  font-family: "pf-scandal", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.wrap {
+  filter: drop-shadow(1px 2px 2px rgba(77, 24, 0, 0.5));
+}
+
+.btn-main {
+  font-family: "ff-zwo-web-pro", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 10px 15px;
+  box-shadow: 10px 25px 15px rgb(106, 105, 105);
+  text-decoration: none ;
+  color: var(--color-bg);
+  clip-path: polygon(-5.54% 19.49%, 37.08% 7.90%, 103.89% 17.4%, 97.67% 82.09%, 78.44% 82.59%, 32.43% 90.51%, -1.66% 75.75%);
+  background-color: var(--color-main);
+}
+
+.btn-main:hover {
+  background-color: var(--color-bg);
+  color: var(--color-main);
+}
+.mt-section {
+  margin-top: var(--m-section);
+}
+
+.mt-h-t{
+  margin-top: var( --m-h-t);
+}
+
+@media (min-width:1000px) {
+  .titel-h1 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width:500px) {
+  .titel-h1 {
+    font-size: 20px;
+  }
+}

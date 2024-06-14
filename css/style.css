@@ -1,0 +1,54 @@
+/* home intro section */
+.intro-container{
+  max-width: 650px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 200px;
+}
+
+.intro-container::after {
+  content: url(../imgs/illustrations-svg/Pizza-story.svg);
+  position: absolute;
+  top: -15%;
+  right: 0;
+  width: 250px;
+  opacity: .5;
+
+}
+
+.intro-rand{
+  position: absolute;
+  z-index: -1;
+  max-width: 120%;
+  left: -15%;
+  top: -50%;
+}
+
+.text-wrap {
+  max-width: 400px;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video {
+  max-width: 800px;
+}
+@media (max-width:700px) {
+  .intro-rand{
+   top: -30%;
+  }
+}
+
+@media (max-width:600px) {
+  .intro-rand{
+   display: none;
+  }
+
+  .intro-container{
+    margin-top: 100px;
+  }
+}

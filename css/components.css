@@ -1,0 +1,105 @@
+/* navigation */
+#logo {
+  height:  35px;
+}
+
+.navbar-nav.site-nav-link {
+  text-decoration: none;
+  gap: 40px;
+}
+
+.nav-container {
+  background-color: var(--color-bg);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 80.00% 84.48%, 20% 100%, 0% 90%);
+  padding: 30px 0 20px;
+  filter: drop-shadow(3px 4px 3px rgba(77, 24, 0, 0.5));
+}
+
+.navbar-nav.site-nav-link a{
+  text-decoration: none;
+  font-family: "poster-cut-neue", sans-serif;
+  font-size: 20px;
+  color: var(--color-black);
+  display: inline-block;
+  position: relative;
+}
+
+.navbar-nav.site-nav-link a:hover::after {
+  content: url(../imgs/illustrations-svg/tipp-rand.svg);
+  position: absolute;
+  width: 120%;
+  top:-30%;
+}
+
+.navbar {
+  --bs-navbar-toggler-padding-x: 6px;
+  --bs-navbar-toggler-icon-bg: url(../imgs/illustrations-svg/menu-burger.png);
+  --bs-navbar-toggler-border-color: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+  --bs-navbar-toggler-icon-bg:url(../imgs/illustrations-svg/menu-burger-close.svg);
+}
+
+.navbar-toggler.collapsed {
+  --bs-navbar-toggler-icon-bg: url(../imgs/illustrations-svg/menu-burger.png);
+}
+/* header */
+header {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* social icons aside */
+.group-social {
+  filter: drop-shadow(1px 2px 2px rgba(77, 24, 0, 0.5));
+  position: fixed;
+  right: 0;
+  top: 50%;
+}
+
+aside {
+  width: fit-content;
+  background-color: var(--color-main);
+  padding: 20px 10px;
+  clip-path: polygon(6.29% 15.14%, 41.52% 4.28%, 99.45% 6.53%, 100% 88%, 45.9% 97.08%, -0.11% 86.89%, 10.17% 46.04%);
+}
+
+
+
+
+@media (max-width:989px) {
+  .navbar-nav.site-nav-link {
+    padding: 20px 0;
+  }
+
+  .navbar-nav.site-nav-link a:hover::after{
+    content: '';
+  }
+}
+
+@media (min-width:989px) {
+  #logo {
+    height: 50px;
+  }
+}
+
+@media (max-width:576px){
+  .group-social{
+    display: none;
+  }
+}
+
+@media (min-width:2000px) {
+  .group-social{
+    display: none;
+  }
+}
