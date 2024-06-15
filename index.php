@@ -1,5 +1,5 @@
 <?php include('head.php'); ?>
-
+<script src="js/bootstrap.min.js" defer></script>
 <title>BACIO | Home </title>
 </head>
 
@@ -49,6 +49,8 @@
             </video>
           </div>
 
+          <img class="header-item-right" width="200px" src="imgs/illustrations-svg/tomate-green.svg" alt="frische Tomaten">
+          <img class="header-item-left" width="150px" src="imgs/illustrations-svg/basilikum-green.svg" alt="frische Basilikum">
         </div>
 
       </div>
@@ -66,7 +68,7 @@
       <div class="container mt-50">
         <div class="row">
           <div class="col-lg-4 ">
-            <img class="w-75" src="imgs/margherita.png" alt="" class="w-100">
+            <img class="w-75 img-card" src="imgs/margherita.png" alt="" class="w-100">
 
             <div class="detail-container">
               <h3 class="titel-h3-v2">
@@ -79,7 +81,7 @@
           </div>
 
           <div class="col-lg-4 main-card">
-            <img class="w-75" src="imgs/pizza-salami.png" alt="" class="w-100">
+            <img class="w-75 img-card" src="imgs/pizza-salami.png" alt="" class="w-100">
 
             <div class="detail-container">
               <h3 class="titel-h3-v2">
@@ -92,7 +94,7 @@
           </div>
 
           <div class="col-lg-4 main-card">
-            <img class="w-75" src="imgs/margherita.png" alt="" class="w-100">
+            <img class="w-75 img-card" src="imgs/margherita.png" alt="" class="w-100">
 
             <div class="detail-container">
               <h3 class="titel-h3-v2">
