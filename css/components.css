@@ -92,6 +92,7 @@ header {
   position: fixed;
   right: 0;
   top: 50%;
+  z-index: 20;
 }
 
 aside {
@@ -107,6 +108,34 @@ aside {
 
 .footer-social {
   display: none;
+}
+
+/* modal dialog */
+.modal-dialog {
+  max-width: 900px;
+}
+
+.custom-modal-bg{
+  background-color: var(--color-bg);
+  border-radius: 10px;
+}
+
+.btn-close {
+  --bs-btn-close-bg: url(../imgs/illustrations-svg/menu-burger-close.svg);
+  opacity: 1;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  padding: 5px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+td + td {
+  padding-left: 20px;
 }
 
 @media (min-width:989px) {
