@@ -1,8 +1,8 @@
 <div class="wrap">
     <div class="nav-container">
       <div class="container nav">
-        <nav class="container navbar navbar-expand-lg ">
-          <div id="nav" class="container align-items-end">
+        <nav class="container navbar navbar-expand-lg p-0">
+          <div id="nav" class="container align-items-end p-0">
             <a href="index.php"><img id="logo" src="imgs/bacio-logo.png" alt="bacio" title="bacio"></a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
