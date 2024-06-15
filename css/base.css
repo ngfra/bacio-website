@@ -138,6 +138,7 @@ html::-webkit-scrollbar-thumb {
   color: var(--color-bg);
   clip-path: polygon(-5.54% 19.49%, 37.08% 7.90%, 103.89% 17.4%, 97.67% 82.09%, 78.44% 82.59%, 32.43% 90.51%, -1.66% 75.75%);
   background-color: var(--color-main);
+  z-index: 1;
 }
 
 .btn-main:hover {
