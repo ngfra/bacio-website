@@ -19,7 +19,7 @@
           </div>
         </div>
         <div class="container text-center text-md-end"> <?php
-        echo "&copy; " . date("Y") . " BACIO BmbH.";
+        echo "&copy; " . date("Y") . " BACIO GmbH.";
         ?></div>
       </div>
      
