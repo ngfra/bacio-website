@@ -4,6 +4,7 @@
   --color-bg: #FFF5E8;
   --color-black: #000000;
   --m-section: 100px;
+  --m-50: 50px;
   --m-h-t:20px;
 }
 
@@ -21,6 +22,7 @@
 /* body */
 body {
   background-image: url(../imgs/background-texture.jpg);
+  font-family: "ff-zwo-web-pro", sans-serif;
 }
 
 p {
@@ -72,6 +74,7 @@ html::-webkit-scrollbar-thumb {
   background-color: var(--color-main);
   display: inline-block;
   padding: 15px 20px;
+  
 }
 
 .titel-h1 {
@@ -80,10 +83,17 @@ html::-webkit-scrollbar-thumb {
 
 .titel-h2 {
   font-size: var(--fs-md);
+  letter-spacing: 1px;
 }
 
 .titel-h3 {
   font-size: var(--fs-base);
+  margin-bottom: 0;
+}
+
+.titel-h3-v2 {
+  font-family: "poster-cut-neue", sans-serif;
+  color: var(--color-main);
 }
 
 .font-nav-footer{
@@ -138,13 +148,17 @@ html::-webkit-scrollbar-thumb {
   margin-top: var(--m-section);
 }
 
+.mt-50{
+  margin-top: var(--m-50);
+}
+
 .mt-h-t{
   margin-top: var( --m-h-t);
 }
 
 @media (min-width:1000px) {
   .titel-h1 {
-    font-size: 50px;
+    font-size: 48px;
   }
 }
 
