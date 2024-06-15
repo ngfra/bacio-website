@@ -10,7 +10,7 @@
   <!-- header -->
   <header>
     <div class="container header-container">
-      <img class="w-100 mt-section" src="imgs/margherita-header.png" alt="bacio pizza - pure Liebe ">
+      <img class="w-100 mt-h-t" src="imgs/margherita-header.png" alt="bacio pizza - pure Liebe ">
       <h1 class="titel-h1 mt-h-t text-center">BACiO, pure Liebe in jeder Pizza</h1>
       <p class="font-header">Lust auf Pizza? Hier bist du richtig! Traditionelle italienische Handwerkskunst und beste
         Zutaten – für den Geschmack Italiens zu Hause.</p>
@@ -20,14 +20,7 @@
   </header>
 
   <!-- social icons -->
-  <div class="group-social ">
-    <aside class="d-flex flex-column gap-2">
-      <a target="_blank" href="https://www.facebook.com/profile.php?id=61560862052310"><img height="45px"
-          src="imgs/illustrations-svg/facebook-icon.svg" alt="instagram"></a>
-      <a target="_blank" href="https://www.instagram.com/bacio.pizza/"><img height="45px"
-          src="imgs/illustrations-svg/insta-icon.svg" alt="instagram"></a>
-    </aside>
-  </div>
+  <?php include('group-social.php') ?>
 
   <main>
     <!-- intro section -->
@@ -49,18 +42,73 @@
 
         <div class="video-container mt-h-t">
           <div class="video">
-          <video class="w-100" controls>
-            <source src="videos/pizza.mp4" type="video/mp4">
-            <source src="movie.ogg" type="video/ogg">
+            <video class="w-100" controls>
+              <source src="videos/pizza.mp4" type="video/mp4">
+              <source src="movie.ogg" type="video/ogg">
 
-          </video>
+            </video>
           </div>
-          
+
         </div>
 
       </div>
     </section>
+
+    <!-- bestseller -->
+    <section class="mt-section">
+      <div class="container">
+        <h2 class="titel-h2 m-0">unser best seller</h2>
+        <p class="col-md-8 mt-h-t">Unsere Bestseller - die beliebtesten BACIO-Pizzen, die durch <span
+            class="font-highlight">authentischen Geschmack und höchsten Qualität</span> überzeugen. Probiere unsere
+          Favoriten und erlebe die Liebe zum Detail in jedem Biss!</p>
+      </div>
+
+      <div class="container mt-50">
+        <div class="row">
+          <div class="col-lg-4 ">
+            <img class="w-75" src="imgs/margherita.png" alt="" class="w-100">
+
+            <div class="detail-container">
+              <h3 class="titel-h3-v2">
+                pizza margherita
+              </h3>
+              <p class="mt-h-t mb-0">Die Mutter aller Pizzen, krusprig dünner Teig mit sonnengereifte Tomaten und
+                feinster Mozzarella.</p>
+              <div class="wrap wrap-card mt-h-t"><a class="btn-main" href="pizzas.php">weiter lesen</a></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 main-card">
+            <img class="w-75" src="imgs/pizza-salami.png" alt="" class="w-100">
+
+            <div class="detail-container">
+              <h3 class="titel-h3-v2">
+                pizza salame
+              </h3>
+              <p class="mt-h-t mb-0">Hier geht’s um die Wurst - 100% reine Rindersalami.Ein herzhaftes
+                Geschmackserlebnis, das jeden Bissen unvergesslich macht.</p>
+              <div class="wrap wrap-card mt-h-t"><a class="btn-main" href="pizzas.php">weiter lesen</a></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 main-card">
+            <img class="w-75" src="imgs/margherita.png" alt="" class="w-100">
+
+            <div class="detail-container">
+              <h3 class="titel-h3-v2">
+                pizza prosciutto e funghi
+              </h3>
+              <p class="mt-h-t mb-0">Frische Pilze und Hinterschinken spielt in Sachen Geschmack ganz vorne mit.</p>
+              <div class="wrap wrap-card mt-h-t"><a class="btn-main" href="pizzas.php">weiter lesen</a></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
   </main>
+
+  <?php include('footer.php') ?>
 </body>
 
 </html>
