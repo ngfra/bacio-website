@@ -10,5 +10,5 @@
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/components.css">
   <link rel="stylesheet" href="css/style.css">
-  <script src="js/bootstrap.min.js" defer></script>
+  
   <link rel="stylesheet" href="https://use.typekit.net/yqi4pds.css">
