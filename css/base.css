@@ -60,11 +60,19 @@ html::-webkit-scrollbar-thumb {
 
 /* selection */
 ::selection{
-  color: var(--color-main);
-  background-color: var(--color-bg);
+  color: var(--color-bg);
+  background-color: var(--color-black);
 }
 
 /* variable */
+.about-h1, 
+.about-h2 {
+  font-family: "poster-cut-neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--color-black);
+}
+
 .titel-h1, .titel-h2, .titel-h3 {
   font-family: "poster-cut-neue", sans-serif;
   font-weight: 400;
@@ -74,14 +82,15 @@ html::-webkit-scrollbar-thumb {
   background-color: var(--color-main);
   display: inline-block;
   padding: 15px 20px;
-  
 }
 
-.titel-h1 {
+.titel-h1,
+.about-h1 {
   font-size: var(--fs-lg);
 }
 
-.titel-h2 {
+.titel-h2,
+.about-h2 {
   font-size: var(--fs-md);
   letter-spacing: 1px;
 }
@@ -91,8 +100,16 @@ html::-webkit-scrollbar-thumb {
   margin-bottom: 0;
 }
 
+.titel-h4{
+  font-family: "ff-zwo-web-pro", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
 .titel-h3-v2 {
   font-family: "poster-cut-neue", sans-serif;
+  font-size: 20px;
   color: var(--color-main);
 }
 
@@ -131,7 +148,7 @@ html::-webkit-scrollbar-thumb {
 .btn-main {
   font-family: "ff-zwo-web-pro", sans-serif;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   padding: 10px 15px;
   box-shadow: 10px 25px 15px rgb(106, 105, 105);
   text-decoration: none ;
@@ -141,7 +158,20 @@ html::-webkit-scrollbar-thumb {
   z-index: 1;
 }
 
-.btn-main:hover {
+.btn-secondary{
+  font-family: "poster-cut-neue", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 10px 15px;
+  box-shadow: 10px 25px 15px rgb(106, 105, 105);
+  text-decoration: none ;
+  color: var(--color-bg);
+  clip-path: polygon(-5.54% 19.49%, 37.08% 7.90%, 103.89% 17.4%, 97.67% 82.09%, 78.44% 82.59%, 32.43% 90.51%, -1.66% 75.75%);
+  background-color: var(--color-main);
+  z-index: 1;
+}
+.btn-main:hover,
+.btn-secondary:hover {
   background-color: var(--color-bg);
   color: var(--color-main);
 }
@@ -157,10 +187,15 @@ html::-webkit-scrollbar-thumb {
   margin-top: var( --m-h-t);
 }
 
+.color-main {
+  color: var(--color-main);
+}
+
 @media (min-width:1000px) {
-  .titel-h1 {
+  .titel-h1, .about-h1{
     font-size: 48px;
   }
+
 }
 
 @media (max-width:500px) {
