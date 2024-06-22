@@ -5,9 +5,9 @@
           <div class="d-flex gap-2 align-items-end">
             <a href="index.php"><img id="logo" src="imgs/bacio-logo.png" alt="bacio" title="bacio"></a>
 
-            <a  target="_blank" href="https://www.facebook.com/profile.php?id=61560862052310"><img class="footer-social" height="40px"
+            <a aria-label="gehe zu Bacio Facebook"  target="_blank" href="https://www.facebook.com/profile.php?id=61560862052310"><img class="footer-social" height="40px"
                 src="imgs/illustrations-svg/facebook-icon-red.svg" alt="instagram"></a>
-            <a target="_blank" href="https://www.instagram.com/bacio.pizza/"><img  class="footer-social"  height="40px"
+            <a aria-label="gehe zu Bacio Instagram" target="_blank" href="https://www.instagram.com/bacio.pizza/"><img  class="footer-social"  height="40px"
                 src="imgs/illustrations-svg/insta-icon-red.svg" alt="instagram"></a>
           </div>
 
@@ -27,3 +27,7 @@
     </div>
     <!--wrap-container-->
   </footer>
+  <script src="aos-master/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
