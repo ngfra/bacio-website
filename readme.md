@@ -22,10 +22,6 @@
 2. [Projektumfang](#2-projektumfang)
    1. [Allgemein](#allgemein)
    2. [Layouts](#layouts)
-   3. [Komponenten](#komponenten)
-      1. [Header](#header)
-      2. [Main](#main)
-      3. [Footer](#footer)
 3. [Technische Anforderungen](#3-technische-anforderungen)
 4. [Externe Links](#4-externe-links)
 
@@ -66,7 +62,8 @@ Website soll auch barrierefrei optimiert werden. (Google Chrome Lighthouse Check
 
 ## 4. Externe Links
 - [Screen design (Figma)](https://www.figma.com/proto/KirwBMfPOqBATErDHRJloP/BACIO-Screen-Design?node-id=25-3&t=rIyMWC80CPkSMKWw-0&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1)
-- 
+- [Animation](https://michalsnik.github.io/aos/) AOS Library
+- [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/download/) Version 5.3
 
 
 
