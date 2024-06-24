@@ -73,6 +73,28 @@
   flex-wrap: wrap;
   gap: 10px;
 }
+
+#messageContainer {
+  display: none; 
+  background-color: var(--color-main);
+  color: var(--color-bg);
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-family: "poster-cut-neue", sans-serif;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  font-size: 20px;
+  max-width: 400px;
+  text-align: center;
+}
+
+.bestellenButton {
+  cursor: pointer;
+  display: inline-block;
+}
 /* header */
 header {
   max-width: 960px;

@@ -1,7 +1,7 @@
 :root {
   --color-main: #D44000;
   --color-green: #1D5C00;
-  --color-bg: #FFF5E8;
+  --color-bg: #FFFBF8;
   --color-black: #000000;
   --m-section: 100px;
   --m-50: 50px;
@@ -21,9 +21,10 @@
 
 /* body */
 body {
-  background-image: url(../imgs/background-texture.jpg);
+  background-image: url(../imgs/background-texture.webp);
   font-family: "ff-zwo-web-pro", sans-serif;
 }
+
 
 p {
   font-family: "ff-zwo-web-pro", sans-serif;
@@ -93,11 +94,13 @@ html::-webkit-scrollbar-thumb {
 .about-h2 {
   font-size: var(--fs-md);
   letter-spacing: 1px;
+  
 }
 
 .titel-h3 {
   font-size: var(--fs-base);
   margin-bottom: 0;
+  color: #FFFBF8;
 }
 
 .titel-h4{
@@ -134,6 +137,7 @@ html::-webkit-scrollbar-thumb {
   max-width: 700px;
   text-align: center;
   line-height: 1.5;
+  margin: 0 auto 20px;
 }
 .claim {
   font-family: "pf-scandal", sans-serif;
@@ -152,7 +156,7 @@ html::-webkit-scrollbar-thumb {
   padding: 10px 15px;
   box-shadow: 10px 25px 15px rgb(106, 105, 105);
   text-decoration: none ;
-  color: var(--color-bg);
+  color: #FFFBF8;
   clip-path: polygon(-5.54% 19.49%, 37.08% 7.90%, 103.89% 17.4%, 97.67% 82.09%, 78.44% 82.59%, 32.43% 90.51%, -1.66% 75.75%);
   background-color: var(--color-main);
   z-index: 1;
@@ -161,11 +165,11 @@ html::-webkit-scrollbar-thumb {
 .btn-secondary{
   font-family: "poster-cut-neue", sans-serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 20px;
   padding: 10px 15px;
   box-shadow: 10px 25px 15px rgb(106, 105, 105);
   text-decoration: none ;
-  color: var(--color-bg);
+  color: #FFFBF8;
   clip-path: polygon(-5.54% 19.49%, 37.08% 7.90%, 103.89% 17.4%, 97.67% 82.09%, 78.44% 82.59%, 32.43% 90.51%, -1.66% 75.75%);
   background-color: var(--color-main);
   z-index: 1;
@@ -191,6 +195,10 @@ html::-webkit-scrollbar-thumb {
   color: var(--color-main);
 }
 
+.color-black {
+  color: var(--color-black);
+}
+
 @media (min-width:1000px) {
   .titel-h1, .about-h1{
     font-size: 48px;
@@ -201,5 +209,10 @@ html::-webkit-scrollbar-thumb {
 @media (max-width:500px) {
   .titel-h1 {
     font-size: 20px;
+    color: #FFFBF8;
+  }
+
+  .titel-h3, .titel-h2{
+    color: #FFFBF8;
   }
 }

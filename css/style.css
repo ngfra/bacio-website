@@ -11,6 +11,30 @@ iframe.mapDiv{
   border-radius: 10px;
 }
 
+address {
+  font-size: 18px;
+}
+/* main-container pizzen seite */
+.main-container {
+  position: relative;
+}
+
+.main-design-element {
+  position: absolute;
+  opacity: .5;
+
+}
+
+.de-01{
+  top: 28%;
+  left: 0;
+  z-index: -1;
+}
+
+.de-02 {
+  right: 0;
+  top: 65%;
+}
 /* design element */
 .design-element{
   max-width: 300px;
@@ -61,6 +85,11 @@ iframe.mapDiv{
   opacity: .5;
 }
 
+.intro-container-max {
+  max-width: 800px;
+  margin: 100px auto;
+}
+
 .intro-rand{
   position: absolute;
   z-index: -1;
@@ -101,6 +130,7 @@ video {
   margin-top: -80px;
   border-radius: 10px;
   margin-left: 20px;
+  background-color: #FFFBF8;
 }
 
 /* über bacio seite */
@@ -291,7 +321,7 @@ img.story-line{
   .design-element {
     max-width: 200px;
   }
-  
+
   .intro-container{
     margin-top: 100px;
   }
@@ -366,7 +396,7 @@ img.story-line{
 
 .accesories-container img{
   max-width: 400px;
-  filter: drop-shadow(1px 1px 5px rgb(85, 84, 84) );
+  
 }
 
 /* impressum + datenschutz seite */
