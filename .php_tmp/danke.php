@@ -1,5 +1,5 @@
 <?php include('head.php'); ?>
-<title>BACIO | Danke für deine Nachricht!</title>
+<title>BACIO | datenschutz</title>
 
 <body>
   <!-- navigation -->
@@ -27,8 +27,6 @@
       </section>
     </main>
   </div>
-  <script src="js/bootstrap.bundle.min.js"></script>
-
 </body>
 
 </html>

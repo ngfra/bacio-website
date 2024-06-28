@@ -1,5 +1,15 @@
 <?php include('head.php'); ?>
-<title>BACIO Tiefkühlpizza</title>
+<title>BACIO amore puro</title>
+<meta property="og:title" content="Pizza BACIO">
+<meta property="og:description" content="BACIO - die beste Tiefkühlpizza, die du je gegessen hast!">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ngoc.startmedia.at/bacio-website/">
+<meta property="og:image" content="https://ngoc.startmedia.at/bacio-website/imgs/BACIO-beste-tiefkuehlpizza.jpg">
+
+<!-- Optional: Mehr Open Graph Meta Tags -->
+<meta property="og:site_name" content="BACIO">
+<meta property="og:locale" content="de_DE">
+
 </head>
 
 <body>
@@ -112,7 +122,7 @@
       <div class="container mt-50">
         <div class="row">
           <div class="col-lg-4 ">
-            <img loading="lazy" class="w-75 img-card" src="imgs/margherita.webp" alt="" class="w-100">
+            <img class="w-75 img-card" src="imgs/margherita.webp" alt="" class="w-100">
 
             <div class="detail-container">
               <h3 class="titel-h3-v2">
@@ -120,12 +130,12 @@
               </h3>
               <p class="mt-h-t mb-0">Die Mutter aller Pizzen, krusprig dünner Teig mit sonnengereifte Tomaten und
                 feinster Mozzarella.</p>
-              <div class="wrap wrap-card mt-h-t"><a class="btn-secondary" href="pizzen-bacio.php">weiter lesen</a></div>
+              <div class="wrap wrap-card mt-h-t"><a class="btn-main" href="pizzen-bacio.php">weiter lesen</a></div>
             </div>
           </div>
 
           <div class="col-lg-4 main-card">
-            <img loading="lazy" class="w-75 img-card" src="imgs/pizza-salami.webp" alt="" class="w-100">
+            <img class="w-75 img-card" src="imgs/pizza-salami.webp" alt="" class="w-100">
 
             <div class="detail-container">
               <h3 class="titel-h3-v2">
@@ -133,19 +143,19 @@
               </h3>
               <p class="mt-h-t mb-0">Hier geht’s um die Wurst - 100% reine Rindersalami.Ein herzhaftes
                 Geschmackserlebnis, das jeden Bissen unvergesslich macht.</p>
-              <div class="wrap wrap-card mt-h-t"><a class="btn-secondary" href="pizzen-bacio.php">weiter lesen</a></div>
+              <div class="wrap wrap-card mt-h-t"><a class="btn-main" href="pizzen-bacio.php">weiter lesen</a></div>
             </div>
           </div>
 
           <div class="col-lg-4 main-card">
-            <img loading="lazy" class="w-75 img-card" src="imgs/pizza-prosciutto-pilze.webp" alt="" class="w-100">
+            <img class="w-75 img-card" src="imgs/pizza-prosciutto-pilze.webp" alt="" class="w-100">
 
             <div class="detail-container">
               <h3 class="titel-h3-v2">
                 pizza prosciutto e funghi
               </h3>
               <p class="mt-h-t mb-0">Frische Pilze und Hinterschinken spielt in Sachen Geschmack ganz vorne mit.</p>
-              <div class="wrap wrap-card mt-h-t"><a class="btn-secondary" href="pizzen-bacio.php">weiter lesen</a></div>
+              <div class="wrap wrap-card mt-h-t"><a class="btn-main" href="pizzen-bacio.php">weiter lesen</a></div>
             </div>
           </div>
 

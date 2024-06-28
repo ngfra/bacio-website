@@ -11,6 +11,8 @@ if (isset($_POST['submit'])) {
     $email = htmlspecialchars($_POST['email']);
     $message = htmlspecialchars($_POST['message']);
 }
+
+$date = date('d/m/Y H:i:s');
 ?>
 
 <!DOCTYPE html>
@@ -33,21 +35,39 @@ if (isset($_POST['submit'])) {
         $mail->Username = "wiastud-newsletter";
         $mail->Password = "45YerkaidaAsaef5Kiap";
         $mail->From = "stud-newsletter@wda-innsbruck.at";
-        $mail->FromName = "BACIO";
+        $mail->FromName = "Pizza BACIO";
 
         // $mail->addAddress($email, $name);
-        $mail->addAddress('ngocfrankl@gmail.com', "Ngoc Frankl");
-
+        $mail->addAddress($email, $name);
+        $mail->addCC('ngocfrankl@gmail.com', "Ngoc Frankl");
+        
         $mail->isHTML(true);
-        $mail->Subject = "Wir haben neues Rezept von $name bekommen!";
+        $mail->Subject = "Neue Nachricht";
 
         $mail->Body = "
-            <h1 style='color:#fff5e8; background-color:#d44000; padding: 5px 10px;'>Wir haben neues Rezept bekommen!</h1>
-            <p style='font-size: 18px;'>Neues Rezept von $name,</p>
-            <div>Name: $name</div><br>
-            <div>Email: $email</div><br>
-            <div>Rezept: $message</div>
-        ";
+        <div style='font-family: Helvetica, sans-serif; padding: 20px; background-color: #f4f4f4;'>
+            <h1 style='color: #d44000;'>Wir haben eine neue Nachricht erhalten!</h1>
+            <p style='font-size: 18px;'>Es wurde eine neue Nachricht gesendet von:</p>
+            <table style='width: 100%; max-width: 600px; margin: 20px 0; border-collapse: collapse;'>
+                <tr>
+                    <td style='padding: 10px; border: 1px solid #ddd; background-color: #fff;'>Name</td>
+                    <td style='padding: 10px; border: 1px solid #ddd; background-color: #fff;'>$name</td>
+                </tr>
+                <tr>
+                    <td style='padding: 10px; border: 1px solid #ddd; background-color: #fff;'>Email</td>
+                    <td style='padding: 10px; border: 1px solid #ddd; background-color: #fff;'>$email</td>
+                </tr>
+                <tr>
+                    <td style='padding: 10px; border: 1px solid #ddd; background-color: #fff;'>Nachricht</td>
+                    <td style='padding: 10px; border: 1px solid #ddd; background-color: #fff;'>$message</td>
+                </tr>
+                <tr>
+                <td style='padding: 10px; border: 1px solid #ddd; background-color: #fff;'>Datum und Uhrzeit</td>
+                <td style='padding: 10px; border: 1px solid #ddd; background-color: #fff;'>$date</td>
+            </tr>
+            </table>
+        </div>
+    ";
 
         try {
             $mail->send();

@@ -1,5 +1,6 @@
 <?php include('head.php'); ?>
-<title>BACIO Unsere Geschichte</title>
+<script src="js/bootstrap.min.js" defer></script>
+<title>BACIO | Home </title>
 </head>
 
 <body>
@@ -11,7 +12,7 @@
     <div class="container about-container mt-section">
       <div class="about-center">
         <div class="about-img">
-          <img class="w-100" src="imgs/illustrations-svg/logo-claim.svg" alt="bacio logo claim">
+          <img class="w-100" src="imgs/illustrations-svg/logo-claim.png" alt="bacio logo claim">
         </div>
 
         <h1 class="about-h1 mt-h-t">was macht bacio <br><span class="titel-h1">besonders?</span></h1>
@@ -58,8 +59,7 @@
         <!-- 1 -->
         <div class="row d-flex align-items-center">
           <div class="col-md-4 story-img">
-            <img data-aos="fade-down"
-           data-aos-duration="1000"  width="150px" src="imgs/illustrations-svg/key-visuell.png" alt="so beginnt bacio geschichte">
+            <img width="150px" src="imgs/illustrations-svg/key-visuell.png" alt="so beginnt bacio geschichte">
           </div>
 
           <div class="col-md-8">
@@ -76,16 +76,14 @@
           </div>
 
           <div class="col-md-4 story-img">
-            <img data-aos="fade-down"
-            data-aos-duration="1000" width="250px" src="imgs/illustrations-svg/story-line-2.svg" alt="">
+            <img width="250px" src="imgs/illustrations-svg/story-line-2.svg" alt="">
           </div>
         </div>
 
         <!-- 3 -->
         <div class="row mt-50 d-flex align-items-center">
           <div class="col-md-4 d-flex justify-content-center">
-            <img data-aos="fade-down"
-            data-aos-duration="1000" width="180px" src="imgs/illustrations-svg/Pizza-story.svg" alt="so beginnt bacio geschichte">
+            <img width="180px" src="imgs/illustrations-svg/Pizza-story.svg" alt="so beginnt bacio geschichte">
           </div>
 
           <div class="col-md-8">
@@ -101,8 +99,7 @@
           </div>
 
           <div class="col-md-4 story-img">
-            <img data-aos="fade-down"
-            data-aos-duration="1000" width="250px" src="imgs/illustrations-svg/story-line-4.svg" alt="">
+            <img width="250px" src="imgs/illustrations-svg/story-line-4.svg" alt="">
           </div>
         </div>
 
@@ -123,7 +120,6 @@
   </main>
 
   <?php include('footer.php') ?>
-  <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

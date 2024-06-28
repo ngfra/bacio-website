@@ -166,7 +166,6 @@ html::-webkit-scrollbar-thumb {
   font-weight: 400;
   font-size: 20px;
   padding: 10px 15px;
-  box-shadow: 10px 25px 15px rgb(106, 105, 105);
   text-decoration: none ;
   color: #FFFBF8;
   clip-path: polygon(-5.54% 19.49%, 37.08% 7.90%, 103.89% 17.4%, 97.67% 82.09%, 78.44% 82.59%, 32.43% 90.51%, -1.66% 75.75%);

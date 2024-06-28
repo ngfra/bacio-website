@@ -1,5 +1,5 @@
 <?php include('head.php'); ?>
-<title>BACIO Impressum</title>
+<title>BACIO | Impressum</title>
 
 <body>
   <!-- navigation -->
@@ -105,10 +105,9 @@
 
         <h2 class="titel-h4">Bildernachweis</h2>
         <p>Die Bilder, Fotos und Grafiken auf dieser Webseite sind urheberrechtlich geschützt. <br>
-        Alle Texte sind urheberrechtlich geschützt. <br>
-        Designed by Freepik</p>
+        Alle Texte sind urheberrechtlich geschützt. <br></p>
 
-        <p>Quelle: Erstellt mit dem <a class="text-decoration-none color-black" href="https://www.adsimple.at/impressum-generator/" title="Impressum Generator Österreich von AdSimple">Impressum Generator</a> von AdSimple</p>
+        <p>Quelle: Erstellt mit dem Impressum Generator von AdSimple</p>
       </div>
 
     </section>

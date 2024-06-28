@@ -6,10 +6,10 @@ ErrorDocument 408 /bacio-website/error.php?code=408
 ErrorDocument 502 /bacio-website/error.php?code=502
 ErrorDocument 504 /bacio-website/error.php?code=504
 
-ErrorDocument 400 /pizzabacio/error.php?code=400
-ErrorDocument 401 /pizzabacio/error.php?code=401
-ErrorDocument 404 /pizzabacio/error.php?code=404
-ErrorDocument 405 /pizzabacio/error.php?code=405
-ErrorDocument 408 /pizzabacio/error.php?code=408
-ErrorDocument 502 /pizzabacio/error.php?code=502
-ErrorDocument 504 /pizzabacio/error.php?code=504
+ErrorDocument 400 /error.php?code=400
+ErrorDocument 401 /error.php?code=401
+ErrorDocument 404 /error.php?code=404
+ErrorDocument 405 /error.php?code=405
+ErrorDocument 408 /error.php?code=408
+ErrorDocument 502 /error.php?code=502
+ErrorDocument 504 /error.php?code=504

@@ -1,5 +1,5 @@
 <?php include('head.php'); ?>
-<title>BACIO Datenschutz</title>
+<title>BACIO | datenschutz</title>
 
 <body>
   <!-- navigation -->
@@ -128,7 +128,6 @@
 
   <?php include('footer.php') ?>
 
-  <script src="js/bootstrap.bundle.min.js"></script>
 
 </body>
 
