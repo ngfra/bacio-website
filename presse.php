@@ -41,7 +41,7 @@
 
       <div class="video-container">
         <audio controls>
-          <source src="videos/Bacio-radiospot.wav" type="audio/wav">
+          <source src="videos/Radiospot.mp3" type="audio/wav">
         </audio>
       </div>
     </section>
