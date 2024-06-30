@@ -46,8 +46,8 @@ $date = date('d/m/Y H:i:s');
 
         $mail->Body = "
         <div style='font-family: Helvetica, sans-serif; padding: 20px; background-color: #f4f4f4;'>
-            <h1 style='color: #d44000;'>Wir haben eine neue Nachricht erhalten!</h1>
-            <p style='font-size: 18px;'>Es wurde eine neue Nachricht gesendet von:</p>
+            <h1 style='color: #d44000;'>BACIO freut sich auf deine Nachricht!</h1>
+            <p style='font-size: 18px;'>Wir haben deine Nachricht erhalten und möchten dir hier eine Zusammenfassung deiner Angaben geben:</p>
             <table style='width: 100%; max-width: 600px; margin: 20px 0; border-collapse: collapse;'>
                 <tr>
                     <td style='padding: 10px; border: 1px solid #ddd; background-color: #fff;'>Name</td>
@@ -66,6 +66,9 @@ $date = date('d/m/Y H:i:s');
                 <td style='padding: 10px; border: 1px solid #ddd; background-color: #fff;'>$date</td>
             </tr>
             </table>
+             <p style='font-size: 18px;'>Falls erforderlich, werden wir uns bei dir melden!</p>
+             <p style='font-size: 18px;'>Liebe Grüße,</p>
+             <p style='font-size: 18px;'>BACIO</p>
         </div>
     ";
 
